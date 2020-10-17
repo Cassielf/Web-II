@@ -1,0 +1,57 @@
+body,
+#titulo #frase {
+  font: 300 1rem/1 "Nunito", sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  align-items: center;
+}
+
+textarea{
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.principal div{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 0;
+    width: auto;
+}
+
+.pontos button {
+    width: 30px;
+    height: 15px;
+  }
+  .pontos {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .pontos th {
+    width: 300vw;
+  }
+  
+  .pontos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.restart img{
+    width:15px;
+    height:15px;
+}
+.delete-row img{
+    width:10px;
+    height:13px;
+    align-items: center;
+}

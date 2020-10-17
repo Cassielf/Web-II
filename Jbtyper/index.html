@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabTyper</title>
+    <link rel="icon" href="./img/índice.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap"
+    rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="principal">
+    <img src="./img/índice.png" alt="teclado">
+
+    <h2 id="titulo">JabTyper</h2>
+    <p>Digite o mais rápido quanto puder!</p>
+    <br>
+    <p id="frase">Sorry Sorry Sorry Sorry
+        Naega naega naega meonjeo
+        Nege nege nege ppajyeo
+        Ppajyeo ppajyeo beoryeo Baby
+        
+        Shawty Shawty Shawty Shawty
+        Nuni busyeo busyeo busyeo
+        Sumi makhyeo makhyeo makhyeo
+        Naega michyeo michyeo Baby</p>
+    <br>
+    <span id="num_palavras"> </span> Quantidade de Palavras
+    <br>
+    <span id="tempo-jogo">20 </span> Segundos
+    <br>   
+    <textarea class='texto' cols="50" rows="10" > </textarea>
+    <br>
+    <button class="restart"><img src="./img/reiniciar.png">Reiniciar</button>
+    <br>
+
+    <div class="caracteres"></div> Caracteres
+     <br>
+    <div class="palavras"></div> Palavras Digitadas
+    <br>
+    </div>
+
+    <div>
+        <h3>Pontuação</h3>
+        <br/>
+
+        <table class="pontos">
+            <thead>
+              <th>Nome<hr></th>
+              <th>Palavras por Minuto<hr></th>
+              <th>Apagar<hr></th>
+            </thead>  
+            <tr class="player"></tr>
+        </table>
+
+        </div>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/main.js"></script> 
+    </body>
+</html>
